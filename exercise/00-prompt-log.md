@@ -11,10 +11,10 @@
 
 | # | งาน / run | agent + โมเดล | ข้อความที่ส่ง (ย่อ) | ไฟล์ที่ agent อ่าน | อยู่ในขอบเขตหลักฐานที่อนุญาตหรือไม่ | มีประโยชน์ (1–5) | หมายเหตุ |
 |---|---|---|---|---|---|---|---|
-| 1 | 1-A | | `prompts/1-…` run A | | | | |
-| 2 | 1-B | | `prompts/1-…` run B | | | | |
-| 3 | 2-a | | `prompts/2-…` run a | | | | |
-| 4 | 2-b | | `prompts/2-…` run b | | | | |
-| 5 | 3 | | `prompts/3-…` | | | | |
+| 1 | 1-A | vscode copilot model auto | `prompts/1-…` run A | 1-recover-architecture.md and demo.proto | true | 5 | |
+| 2 | 1-B | vscode copilot model auto | `prompts/1-…` run B | AGENTS.md, 1-recover-architecture.md, demo.proto, README.md, adservice.yaml, cartservice.yaml, checkoutservice.yaml, currencyservice.yaml, emailservice.yaml, frontend.yaml, loadgenerator.yaml, paymentservice.yaml, productcatalogservice.yaml, recommendationservice.yaml, shippingservice.yaml, and kustomization.yaml. | true | 5 | |
+| 3 | 2-a | vscode copilot model auto | `prompts/2-…` run a | AGENTS.md, 2-write-adr.md และ template.md. | true | 5 | |
+| 4 | 2-b | vscode copilot model auto | `prompts/2-…` run b | AGENTS.md, 2-write-adr.md, scenario.md, 0001-use-redis-for-cart-storage.md, template.md, main.go และ 2b-adr.md. | true | 5 | |
+| 5 | 3 | vscode copilot model auto | `prompts/3-…` | AGENTS.md, 3-review-adr.md, 0002-2b-adr.md และ scenario.md | true | 5 | |
 | 6 | | | | | | | |
 | 7 | | | | | | | |
